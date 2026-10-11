@@ -1,0 +1,25 @@
+### Create Contact (POST)
+POST http://localhost:8080/api/contacts
+Content-Type: application/json
+
+{
+  "name": "Alice Smith",
+  "email": "alice@example.com",
+  "phone": "9876543210"
+}
+
+### Get All Contacts (GET)
+GET http://localhost:8080/api/contacts
+
+### Update Contact (PUT)
+PUT http://localhost:8080/api/contacts/1
+Content-Type: application/json
+
+{
+  "name": "Alice Johnson",
+  "email": "alice.johnson@example.com",
+  "phone": "9998887777"
+}
+
+### Delete Contact (DELETE)
+DELETE http://localhost:8080/api/contacts/1
